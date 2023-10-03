@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    background-color: palevioletred;
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 30px;;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 12px;
+    padding: 30px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    /* width: 90vw; */
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: deeppink; */
+    height: 58vh;
+    width: 80vw;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 3em;
+}
+
+.name{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 2.5em;
+}
+
+.moreabout{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.devPic{
+    height: 58vh;
+}
+
+.buttons{
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 0.75em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+h2{
+    margin: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro{
+    margin: 40px;
+}
+
+.intro h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+}
+
+.intro p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty{
+    width: 125px;
+    background-color: cornflowerblue;
+}
+
+.t5{
+    width: 75px;
+    background-color: coral;
+}
+
+.infoAchiev{
+    margin: 40px;
+}
+
+.infoAchiev h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+}
+
+.proj{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 25px;
+}
+
+.others{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.pos{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 4px;
+}
+
+.comp{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 4px;
+}
+
+.infoEducation{
+    margin: 40px;
+}
+
+.infoEducation h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+}
+
+.col{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    /* margin : top left right bottom */
+    margin: 20px 15px 0;
+}
+
+.grad{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 25px;
+}
+
+.school{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 15px 0;
+}
+
+.study{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 25px;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.cross{
+    margin-left: 155px;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 800px){
+   
+   .devPic{
+       display: none;
+    }
+    
+    .devInfo{
+        font-size: 10px;
+    }
+
+    .buttons button{
+        font-size: 6px;
+    }
+    /*
+    *{
+        background-color: white;
+    }
+    .sidebar{
+        transform: translate(-443px, 0);
+        position: absolute;
+    } */
+}
